@@ -13,7 +13,7 @@ public class A3 {
                 a[s.nextInt()-1]=j;
             }
             for (int j : a) {
-                System.out.print(j);
+                System.out.print(j+" ");
             }
             System.out.println();
         }
