@@ -12,14 +12,14 @@ public class A1{
         for (int j = 0; j < n; j++)
         {
             arr[(j+n-d)%n]=s.nextInt();
-        }
 
-       
-        for (int j = 0; j < n; j++)
-        {
+
+
             System.out.print(arr[j]+" ");
         }
         System.out.println();
     }
+    s.close();
     }
 }
+
